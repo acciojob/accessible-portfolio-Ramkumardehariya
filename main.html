@@ -4,22 +4,31 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
-	<title> Portfolio website </title>
+	<title>My Accessible Portfolio </title>
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
-	<h1>This is my portfolio</h1>
-	<nav>This is my portfoklio website</nav>
-	<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fpngtree.com%2Fso%2Fnew&psig=AOvVaw0dJMUgZC1CcVImkzF0oezf&ust=1748684095410000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCNCuhYTyyo0DFQAAAAAdAAAAABAE"
+	<h1 role="heading">john-doe web developers</h1>
+	
+	<nav role="navigation">
+		<a href="#about">About</a>
+		<a href="#projects">Projects</a>\
+		<a href="#education">Education</a>
+	</nav>
+
+	
+	<img role="img" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fpngtree.com%2Fso%2Fnew&psig=AOvVaw0dJMUgZC1CcVImkzF0oezf&ust=1748684095410000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCNCuhYTyyo0DFQAAAAAdAAAAABAE"
 		 alt="image"/>
-	<ul>
-		<li>
-			Education
-		</li>
-		<li>Projects</li>
-		<li>Skills</li>
-	</ul>
+	
+	<section id="about">
+		Hi! I'm John Doe, a passionate web developer skilled in HTML, CSS, and JavaScript. I love creating accessible websites.
+	</section>
+	<ul role="list">
+      <li role="listitem">HTML & CSS</li>
+      <li role="listitem">JavaScript</li>
+      <li role="listitem">React.js</li>
+    </ul>
     <script type="text/javascript" src="./script.js">
 </script>
 
